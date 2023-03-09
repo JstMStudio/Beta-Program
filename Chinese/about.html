@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>关于我们</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url("https://github.com/JstMStudio/New-Platform/blob/main/English/Beta%20Program/background2.jpeg?raw=true");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  text-align: center;
+  color: green;
+  background-color: #90eef5;
+  margin: 16px;
+  color: purple;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="index.html">主页</a>
+   <a href="about.html">关于</a>
+   <a href="projects.html">项目</a>
+   <a href="register.html">注册</a>
+   <a href="submit.html">提交</a>
+   <a href="items.html">项目</a>
+</div>
+
+<div id="main">
+<div style="text-align:left;background-color:yellow;padding:8px;">
+<span style="font-size:20px;cursor:pointer;color:blue;font-weight:bold;" onclick="openNav()">&#9776; JstMStudio 测试版程序</span>
+</div>
+<h2>关于我们</h2>
+<p>JstMStudio 是由 Jst Tan 创立的小型工作室。 JstMStudio 专注于很多事情，从音乐、故事写作、网站开发等等。 JstMStudio 是一个小型远程独立工作室，专注于构建更美好未来的许多事情。</p>
+<p>JstMStudio 测试版程序是由 JstMStudio 运行的一个小型 Beta 程序，供所有自愿测试版用户测试并就即将发布的项目和功能发布提供反馈。 </p></div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "16px";
+}
+</script>
+      
+      <script src="https://swetrix.org/swetrix.js" defer></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    swetrix.init('13a2nGRC9iGh')
+    swetrix.trackViews()
+  })
+</script>
+<noscript>
+  <img
+    src="https://api.swetrix.com/log/noscript?pid=bbS0szbjjP2r"
+    alt=""
+    referrerpolicy="no-referrer-when-downgrade"
+  />
+</noscript>
+   
+</body>
+</html>
